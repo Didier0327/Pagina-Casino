@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos CSS/estilos.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header class="herder">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img class="iconoCasino" src="./imagen/maquina-de-casino.png" alt="">
+          <a class="navbar-brand" href="#">Casino</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <img class="home" src="./imagen/retirement-home (1).png"alt="">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <img class="perfil" src="./imagen/perfil.png" alt="">
+                <a class="nav-link" href="#">perfil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <img class="ayuda" src="./imagen/ayuda.png" alt="">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ayuda
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Preguntas Frecuentes</a></li>
+                  <li><a class="dropdown-item" href="#">Recuperar Cuenta</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Contactanos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <img class="ayuda" src="./imagen/cerrar.png" alt="">
+                <a class="nav-link disabled">cerrar</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   </header>
+
+   <nav class="nav">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"style="color: white;">Juegos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Recargas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" style="color: white;">Comunidad</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </nav>
+   <br>
+   <br>
+   <main class="main">
+    <section class="section">
+        <div class="tarjeta">
+            <figure>
+                <img src="imagen/poker.png">
+            </figure>
+            <div class="contenido">
+                <h3>poker</h3>
+                <p>Se juega con una baraja inglesa de 52 cartas.</p>
+                 <a href="#">Leer Más</a>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <figure>
+                <img src="imagen/Black jack.png">
+            </figure>
+            <div class="contenido">
+                <h3>Blackjack</h3>
+                <p>Si las dos cartas iniciales suman 21, se denomina Blackjack.</p>
+                 <a href="#">Leer Más</a>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <figure>
+                <img src="imagen/ruleta.png">
+            </figure>
+            <div class="contenido">
+                <h3>Ruleta</h3>
+                <p>Las apuestas pueden ser a un número, dos números, 3, 4, 5, 6 o 12</p>
+                 <a href="#">Leer Más</a>
+            </div>
+        </div>
+    </section>
+    <aside class="aside">
+        <div id="carouselExampleIndicators" class="carousel slide" style="width: 500px; margin-left: 50px;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagen/imagen1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagen/imagen3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagen/imagen5.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </aside>
+   </main>
+   <footer class="footer">
+    <br>
+    <br>
+    <p style="text-align: center;">    Derechos resevados
+       <br>El juego es entretenimiento. Juega con <br> moderación. Jugar sin control causa adicción.
+       <br>Prohibida la venta a menores de edad.
+    </p>
+   </footer>
+</body>
+</html>
