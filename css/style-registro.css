@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(88, 88, 88);
+}
+
+.header__logo, .nav, .nav__list li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.nav {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list li a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.main {
+  height: 850px;
+}
+
+.cuerpo {
+width: 400px;
+height: 700px;
+padding: 100px;
+margin: auto;
+position: relative;
+top: 100px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0px 0px 5px;
+z-index: 9;
+}
+
+h1 {
+text-align: center;
+}
+
+input {
+display: block;
+padding: 5px;
+margin: 5px 5px 20px ;
+min-width: 200px;
+background-color: #f6f6f6;
+border: none;
+border-radius: 10px;
+box-shadow: 0px 0px 5px;
+}
+
+input.submit {
+background-color: rgb(28, 120, 196);
+color: #fff;
+font-size: 30px;
+min-width: 100px;
+margin: auto;
+}
+
+input.submit:hover {
+background-color: rgb(21, 83, 134);
+}
+
+.loss {
+text-align: center;
+padding-top: 16px;
+}
+
+h4 a {
+color: #000;
+font-size: 200;
+text-decoration: none;
+}
+
+h4 a:hover {
+color: rgb(21, 83, 134);
+text-decoration: underline;
+}
+
+.footer {
+background-color: rgb(88, 88, 88);
+padding: 20px;
+text-align: center;
+}
